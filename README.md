@@ -17,7 +17,7 @@ Utilizando as tabelas de pedidos, clientes, representantes de vendas, produtos e
 - Uma tabela fato: **fato_vendas**, e 
 - Cinco tabelas dimensões: **dim_clientes**, **dim_repvendas**, **dim_produtos**, **dim_promocoes** e **dim_data**.
 
-![Star Schema UML](images/star_schema.jpg)
+![Star Schema UML](images/star_schema.png)
 
 ### ETL Pipeline
 
@@ -31,7 +31,7 @@ Com isso, foi construído um dashboard no Power BI, para realização das análi
 
 Abaixo temos um diagrama representativo do que foi descrito acima.
 
-![Pipeline ETL](images/pipeline_etl.jpg)
+![Pipeline ETL](images/Pipeline_ETL.jpg)
 
 ## Como executar
 
