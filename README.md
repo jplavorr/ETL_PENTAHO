@@ -31,7 +31,7 @@ Com isso, foi construído um dashboard no Power BI, para realização das análi
 
 Abaixo temos um diagrama representativo do que foi descrito acima.
 
-![Pipeline ETL](images/Pipeline_ETL.jpg)
+![Pipeline ETL](images/Pipeline_ETL.png)
 
 ## Como executar
 
