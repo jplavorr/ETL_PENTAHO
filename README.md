@@ -14,10 +14,10 @@ GuinhaEletro deseja analisar ... (colocar as análises dos dashboards)
 
 Utilizando as tabelas de pedidos, clientes, representantes de vendas, produtos e promoções foi criado um star schema como apresentado abaixo, que inclui
 
-- Uma tabela fato: **fato_vendas**, and 
-- Cinco tabelas dimensões: **dim_clientes**, **dim_repvendas**, **dim_produtos**, **dim_promocoes** and **dim_data**.
+- Uma tabela fato: **fato_vendas**, e 
+- Cinco tabelas dimensões: **dim_clientes**, **dim_repvendas**, **dim_produtos**, **dim_promocoes** e **dim_data**.
 
-![Star Schema UML](images/star_schema.png)
+![Star Schema UML](images/star_schema.jpg)
 
 ### ETL Pipeline
 
@@ -31,7 +31,7 @@ Com isso, foi construído um dashboard no Power BI, para realização das análi
 
 Abaixo temos um diagrama representativo do que foi descrito acima.
 
-![Pipeline ETL](images/Pipeline_ETL.png)
+![Pipeline ETL](images/pipeline_etl.jpg)
 
 ## Como executar
 
@@ -70,7 +70,7 @@ Se você deseja executar o projeto em sua máquina, você deve concluir os segui
  - **transformations**
   - **importa_csv.ktr**
     - transformação que extrai os dados dos arquivos .csv e insere os resultados nas tabelas da base st_area
-  - **dim_cliente.ktr**
+  - **dim_clientes.ktr**
     - transformação que realiza o processamento da tabela de clientes e insere os resultados na tabela dim_cliente na base dw
   - **dim_data.ktr**
     - transformação que cria e insere dados relacionados a datas na tabela dim_data na base dw
