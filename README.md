@@ -68,7 +68,7 @@ Se você deseja executar o projeto em sua máquina, você deve concluir os segui
 - **images**
   - Imagens do documento
  - **transformations**
-  - **carga_csv.ktr**
+  - **importa_csv.ktr**
     - transformação que extrai os dados dos arquivos .csv e insere os resultados nas tabelas da base st_area
   - **dim_cliente.ktr**
     - transformação que realiza o processamento da tabela de clientes e insere os resultados na tabela dim_cliente na base dw
