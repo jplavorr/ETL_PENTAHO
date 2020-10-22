@@ -37,18 +37,18 @@ Abaixo temos um diagrama representativo do que foi descrito acima.
 
 Se você deseja executar o projeto em sua máquina, você deve concluir os seguintes passos primeiro.
 
-- Instalar o Pentaho Data Integration.
-- Instalar o MySQL.
-- Instalar o Power Bi.
+- Instalar o Pentaho Data Integration
+- Instalar o MySQL
+- Instalar o Power Bi
 
 
 ### Instruções
 
-1. Crie um workspace com o nome que você desejar.
-2. Crie as bases de dados tabelas executando copiando e colando o código do arquivo `criar_tabelas.sql` para dentro do MySQL e executando.
-3. Crie duas conexões com as mesmas configurações de localhost, porta, usuário e senha, mudando apenas o nome da conexão, sendo uma `st_area` e outra `dw`.
+1. Crie um workspace com o nome que você desejar
+2. Crie as bases de dados tabelas executando copiando e colando o código do arquivo `criar_tabelas.sql` para dentro do MySQL e executando
+3. Crie duas conexões com as mesmas configurações de localhost, porta, usuário e senha, mudando apenas o nome da conexão, sendo uma `st_area` e outra `dw`
 4. Execute o job `ETL.kjb`
-5. Confira o resultado do processo: Execute as queries, individualmente, do arquivo `teste.sql` no MySQL para visualizar se os dados foram registrados corretamente nas tabelas.
+5. Confira o resultado do processo: Execute as queries, individualmente, do arquivo `teste.sql` no MySQL para visualizar se os dados foram registrados corretamente nas tabelas
 6. Dashboard
 
 ## Arquivos do Projeto
