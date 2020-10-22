@@ -102,4 +102,4 @@ Se você deseja executar o projeto em sua máquina, você deve concluir os segui
 ## Referencias: 
 
 - Workshop ETL ao DW do Leonardo Toledo (https://youtu.be/0dyz-v31ZdY).
-- Como criar um dashboard completo no Power do Gerson - Minhas Planilhas (BIhttps://youtu.be/YyrK_1RDxv0).
+- Como criar um dashboard completo no Power BI do Gerson - Minhas Planilhas (https://youtu.be/YyrK_1RDxv0).
