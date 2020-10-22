@@ -10,8 +10,6 @@ Esse projeto ajuda o time de analytics da startup GuinhaEletro analisando seus d
 
 ### Data Schema
 
-GuinhaEletro deseja analisar ... (colocar as análises dos dashboards)
-
 Utilizando as tabelas de pedidos, clientes, representantes de vendas, produtos e promoções foi criado um star schema como apresentado abaixo, que inclui
 
 - Uma tabela fato: **fato_vendas**, e 
@@ -98,9 +96,10 @@ Se você deseja executar o projeto em sua máquina, você deve concluir os segui
     - `create` tables if not exists
 - **teste.sql**
   - Queries para testar se as tabelas foram populadas corretamente.
-- **arquivo do power bi**
+- **painel_vendas.pbix**
   - Dashboard com as análises realizadas.
 
 ## Referencias: 
 
 - Workshop ETL ao DW do Leonardo Toledo (https://youtu.be/0dyz-v31ZdY).
+- Como criar um dashboard completo no Power do Gerson - Minhas Planilhas (BIhttps://youtu.be/YyrK_1RDxv0).
