@@ -97,9 +97,9 @@ Se você deseja executar o projeto em sua máquina, você deve concluir os segui
 - **teste.sql**
   - Queries para testar se as tabelas foram populadas corretamente.
 - **painel_vendas.pbix**
-  - Dashboard com as análises realizadas.
+  - [Dashboard com as análises realizadas](https://app.powerbi.com/view?r=eyJrIjoiZjIwOTRjNWMtNjI2MC00OGFjLTk1NmItYTI3MGQwNzFmMWM3IiwidCI6ImYwMjAyMmRkLWI3YmYtNGU3OC04MjFjLWFmN2VlMjk2ZTgyNiJ9).
 
 ## Referencias: 
 
-- Workshop ETL ao DW do Leonardo Toledo (https://youtu.be/0dyz-v31ZdY).
-- Como criar um dashboard completo no Power BI do Gerson - Minhas Planilhas (https://youtu.be/YyrK_1RDxv0).
+- [Workshop ETL ao DW do Leonardo Toledo](https://youtu.be/0dyz-v31ZdY).
+- [Como criar um dashboard completo no Power BI do Gerson - Minhas Planilhas](https://youtu.be/YyrK_1RDxv0).
